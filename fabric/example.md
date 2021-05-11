@@ -136,4 +136,11 @@ docker rm -f $PEER_CONTAINER
 docker run --rm -v $LEDGERS_BACKUP/$PEER_CONTAINER:/var/hyperledger/production/ -v /var/run/:/host/var/run/ -v $FABRIC_SAMPLES/first-network/crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/msp:/etc/hyperledger/fabric/msp -v $FABRIC_SAMPLES/first-network/crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls:/etc/hyperledger/fabric/tls -p 7051:7051 --env-file env_peer.list --net net_byfn --name $PEER_CONTAINER  hyperledger/fabric-peer:$IMAGE_TAG peer node upgrade-dbs
 # 升级peer节点
 docker run -d -v $LEDGERS_BACKUP/$PEER_CONTAINER:/var/hyperledger/production/ -v /var/run/:/host/var/run/ -v $FABRIC_SAMPLES/first-network/crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/msp:/etc/hyperledger/fabric/msp -v $FABRIC_SAMPLES/first-network/crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls:/etc/hyperledger/fabric/tls -p 7051:7051 --env-file env_peer.list --net net_byfn --name $PEER_CONTAINER  hyperledger/fabric-peer:$IMAGE_TAG peer node start
-```
+```  
+
+---
+
+> 声明：本作品采用[署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)进行许可，使用时请注明出处。 
+> Author: MonsterMeng92
+
+---
