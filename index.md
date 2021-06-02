@@ -13,7 +13,7 @@
 
 本章节内容翻译自[RabbitMQ Tutorials](https://www.rabbitmq.com/getstarted.html)，介绍RabbitMQ的使用。  
 
-[0. 准备](RabbitMQ/00.md) 前期准备
+[0. 准备](RabbitMQ/00.md) 前期准备  
 [1. Hello World](RabbitMQ/1.md) 最简入门教程  
 [2. 工作队列](RabbitMQ/2.md) 竞争消费者模式  
 [3. 发布/订阅](RabbitMQ/3.md) 同时发送消息给多个消费者  
