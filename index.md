@@ -20,4 +20,8 @@
 [4. 路由](RabbitMQ/4.md) 选择性接收消息  
 [5. 主题](RabbitMQ/5.md) 基于主题接收消息   
 [6. RPC](RabbitMQ/6.md) Request/Reply模式示例   
-[7. Publisher Confirms](RabbitMQ/7.md) 与发布者进行确认的可靠发布模式 
+[7. Publisher Confirms](RabbitMQ/7.md) 与发布者进行确认的可靠发布模式   
+
+## 杂记  
+
+[使用boot.iso镜像安装Oracle Linux 8](杂记/boot镜像安装OL8.md)
