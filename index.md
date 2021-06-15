@@ -24,4 +24,5 @@
 
 ## 杂记  
 
-[使用boot.iso镜像安装Oracle Linux 8](杂记/boot镜像安装OL8.md)
+[使用boot.iso镜像安装Oracle Linux 8](杂记/boot镜像安装OL8.md)  
+[ab命令使用](杂记/ab使用.md)  
